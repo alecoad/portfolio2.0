@@ -1,3 +1,198 @@
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-image {
+    background: url("../img/big-prairie.jpg") bottom no-repeat #f2bb66;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.flex-container{
+	max-width: 1200px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h1 {
+    font-size: 1.875em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.125em;
+}
+h4 {
+    font-size: 0.75em;
+}
+
+p {
+    font-size: 0.875em;
+    line-height: 1.3125em;
+    padding: 0 1.875em;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+	flex-grow: 1;
+}
+
+header h1 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #77a466;
+    padding: 1em 0 0.5em;
+}
+
+header nav {
+    width: 100%;
+    padding: 0.75em 0;
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+header nav ul li {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.875em;
+    padding-bottom: 1.5em;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.tagline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+}
+
+.about-section {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-content {
+    width: 90%;
+}
+.about-content img {
+    width: 100%;
+}
+.about-content p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+}
+
+.portfolio-section {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.project-title {
+
+}
+.project-description {
+    text-align: center;
+}
+.project-story {
+
+}
+.portfolio-section h3 {
+    text-align: center;
+    width: 90%;
+}
+
+footer {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer-content h2 {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copyright {
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* -- Tablets larger than 768px wide -- */
+@media all and (min-width:768px) {
+    .about-content {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .about-content img {
+        width: 50%;
+    }
+    .about-content p {
+        width: 50%;
+    }
+
 }
