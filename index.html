@@ -9,8 +9,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
-            <header>
+        <header>
+            <div class="content-wrapper">
                 <h1>Andrew Coad</h1>
                 <nav>
                     <ul>
@@ -25,17 +25,19 @@
                         </li>
                     </ul>
                 </nav>
-            </header>
+            </div>
+        </header>
 
-            <section id="top">
-                <div id="main-title">
-                    <h1><q>Jack of all trades. Master of none.</q></h1>
-                </div>
-            </section>
+        <section class="top-section">
+            <div class="content-wrapper">
+                <h1><q>Jack of all trades. Master of none.</q></h1>
+            </div>
+        </section>
 
-            <section id="about">
+        <section class="about-section">
+            <div class="content-wrapper">
                 <h2>About Me</h2>
-                <div id="about-content">
+                <div class="about-content">
                     <!--img src="img/rosie-n-me.jpg" alt="Rosie and Me"-->
                     <p>
                         I am a thoughtful and creative developer with a keen eye for clean and elegant designs.
@@ -43,14 +45,16 @@
                         or out exploring the desert and mountains near my home in southwest Colorado.
                     </p>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section id="portfolio">
+        <section class="portfolio-section">
+            <div class="content-wrapper">
                 <h2>Portfolio</h2>
-                <div class="project">
-                    <h3>Flack</h3>
-                    <h4>A simple chat application using Flask and a lot of JavaScript</h4>
-                    <p>
+                <div class="project-item">
+                    <h3 class="project-title">Flack</h3>
+                    <h4 class="project-description">A simple chat application using Flask and plenty of JavaScript</h4>
+                    <p class="project-story">
                         The biggest challenge with this project was implementing the WebSocket
                         in order to enable realtime communication between web clients and servers.
                         The wildest part about this mini web app is how simple and clean I made the interface,
@@ -59,10 +63,10 @@
                     </p>
                 </div>
 
-                <div class="project">
-                    <h3>Coad Books</h3>
-                    <h4>A custom book review site built using Flask</h4>
-                    <p>
+                <div class="project-item">
+                    <h3 class="project-title">Coad Books</h3>
+                    <h4 class="project-description">A custom book review site built using Flask</h4>
+                    <p class="project-story">
                         Since this project used Flask and I needed a way to securely authenticate users,
                         I had to build that structure manually. Although that was challenging,
                         the most difficult part about this project learning how to incorporate the GoodReads API
@@ -71,33 +75,37 @@
                     </p>
                 </div>
 
-                <div class="project">
-                    <h3>Unplugged Retreat Center</h3>
-                    <h4>An exercise in coding responsive websites, mobile first of course</h4>
-                    <p>
+                <div class="project-item">
+                    <h3 class="project-title">Unplugged Retreat Center</h3>
+                    <h4 class="project-description">An exercise in coding responsive websites, mobile first</h4>
+                    <p class="project-story">
                         Starting with the mobile design initially felt like I was working backwards.
                         However, this allowed me to focus on the essentials of the site and not get lost in the weeds.
                         Now I code all websites "mobile first"!
                 </div>
 
                 <h3>See more of my past and current projects on GitHub!</h3>
-            </section>
+            </div>
+        </section>
 
-            <section id="contact">
-                <h2>Contact</h2>
-                <div id="contact-content">
-                    <a href="mailto:andrewlecoad.com">andrewlecoad@gmail.com</a>
-                    <ul>
-                        <li><a href="https://github.com/alecoad" target="_blank"><!--img src="img/icon-github.png" alt="github icon"--></a></li>
-                        <li><a href="https://wordpress.org" target="_blank"><!--img src="img/icon-github.png" alt="github icon"--></a></li>
-                        <li><a href="https://linkedin.com" target="_blank"><!--img src="img/icon-linkedin.png" alt="linkedin icon"--></a></li>
-                    </ul>
+        <footer>
+            <div class="content-wrapper">
+                <div class="footer-content">
+                    <h2>Contact</h2>
+                    <div class="contact-content">
+                        <a href="mailto:andrewlecoad.com">andrewlecoad@gmail.com</a>
+                        <ul>
+                            <li><a href="https://github.com/alecoad" target="_blank"><!--img src="img/icon-github.png" alt="github icon"--></a></li>
+                            <li><a href="https://wordpress.org" target="_blank"><!--img src="img/icon-github.png" alt="github icon"--></a></li>
+                            <li><a href="https://linkedin.com" target="_blank"><!--img src="img/icon-linkedin.png" alt="linkedin icon"--></a></li>
+                        </ul>
+                    </div>
                 </div>
-            </section>
-
-            <footer>
+            </div>
+            
+            <div class="copyright">
                 <h4>Copyright 2020 | Andrew Coad</h4>
-            </footer>
-        </div>
+            </div>
+        </footer>
     </body>
 </html>
