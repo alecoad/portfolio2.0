@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    color: #333;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1em;
     display: flex;
@@ -32,28 +33,29 @@ h1,
 h2,
 h3,
 h4 {
-    color: #333;
     text-transform: uppercase;
     font-weight: 700;
 }
 h1 {
-    font-size: 1.875em;
+    font-size: 2em;
 }
 h2 {
-    font-size: 1.5em;
+    font-size: 1.875em;
 }
 h3 {
-    font-size: 1.125em;
+    font-size: 1.5em;
 }
 h4 {
-    font-size: 0.75em;
+    font-size: 1.125em;
 }
 
 p {
-    color: #333;
     font-size: 0.875em;
     line-height: 1.3125em;
-    padding: 0 1.875em;
+}
+
+img {
+    width: 100%;
 }
 
 header {
@@ -98,6 +100,9 @@ header nav ul li a {
     text-decoration: none;
     text-shadow: 2px 2px 10px #333;
     color: #fff;
+}
+header nav ul li a:hover {
+    color: #220a00;
 }
 
 .tagline {
@@ -147,15 +152,18 @@ header nav ul li a {
 .about-content img {
     border: 3px solid #aaa;
     border-radius: 0.5em;
-    width: 100%;
 }
 .about-content p {
     padding: 0;
     width: 100%;
 }
-.about-content h4 {
-    font-size: 0.875em;
-    text-transform: none;
+.about-content a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #222;
+}
+.about-content a:hover {
+    color: #93827f;
 }
 
 .transition-2 {
@@ -171,14 +179,28 @@ header nav ul li a {
     align-items: center;
     flex-wrap: wrap;
 }
+.portfolio-section a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #222;
+}
+.portfolio-section a:hover {
+    color: #ffefd3;
+}
 
 .project-item {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 2em;
     width: 90%;
 }
+.project-item img {
+    border: 3px solid #bdc4a7;
+    border-radius: 0.5em;
+}
+
 .project-title {
 
 }
@@ -210,12 +232,45 @@ footer {
 
 .footer-content h2 {
     text-align: center;
+    margin-bottom: 0;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-content h4 {
+    text-align: center;
+    width: 90%;
+}
+
+.email {
+    color: #333;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 1em 0;
+    text-decoration: none;
+}
+.email:hover {
+    color: #93827f;
 }
 
 .icons {
+    font-size: 2em;
+    text-decoration: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 90%;
+}
+.icons a {
+    color: #333;
+}
+.icons a:hover {
+    color: #93827f;
 }
 
 .copyright {
@@ -231,16 +286,6 @@ footer {
 
 /* -- Tablets larger than 768px wide -- */
 @media all and (min-width:768px) {
-    .about-content {
-        display: flex;
-        justify-content: space-between;
-        width: 90%;
-    }
-    .about-content img {
-        width: 50%;
-    }
-    .about-content p {
-        width: 50%;
-    }
+
 
 }
