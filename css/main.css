@@ -94,6 +94,7 @@ header nav ul li a {
 header nav ul li a:hover {
     color: #220a00;
 }
+/* -- INTRO -- */
 .tagline {
     height: 300px;
     display: flex;
@@ -287,6 +288,7 @@ footer {
     .background-image {
         min-height: 900px;
     }
+    /* -- INTRO -- */
     .tagline h1 {
         font-size: 2.5em;
         padding-bottom: 1em;
@@ -333,5 +335,49 @@ footer {
 
 /* ---------- Screens larger than 1024px wide ---------- */
 @media only screen and (min-width: 1024px) {
-
+    /* -- HEADER -- */
+    .background-image {
+        min-height: 750px;
+    }
+    header {
+        justify-content: space-between;
+    }
+    header h1 {
+        border-bottom: none;
+        text-align: left;
+        margin: -1.5em 0 0 2em;
+        padding: 0;
+        width: 50%;
+    }
+    header nav {
+        margin-top: -2em;
+        width: 30%;
+    }
+    /* -- INTRO -- */
+    .tagline h2 {
+        width: 70%;
+    }
+    /* -- ABOUT -- */
+    .about-content {
+        justify-content: space-around;
+    }
+    .about-content img {
+        margin: 0;
+        width: 33.333%;
+    }
+    .about-bio {
+        margin: 0;
+    }
+    /* -- PORTFOLIO -- */
+    .project-story {
+        font-size: 1.25em;
+    }
+    .portfolio-closing {
+        font-size: 1.5em;
+        padding-top: 0.5em;
+    }
+    /* -- FOOTER -- */
+    .contact-content h4 {
+        font-size: 1.5em;
+    }
 }
