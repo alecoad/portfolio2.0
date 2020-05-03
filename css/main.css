@@ -160,10 +160,10 @@ header nav ul li a:hover {
 .about-content a {
     text-decoration: none;
     font-weight: 700;
-    color: #222;
+    color: #220a00;
 }
 .about-content a:hover {
-    color: #93827f;
+    color: #ffefd3;
 }
 
 .transition-2 {
@@ -182,10 +182,10 @@ header nav ul li a:hover {
 .portfolio-section a {
     text-decoration: none;
     font-weight: 700;
-    color: #222;
+    color: #ffefd3;
 }
 .portfolio-section a:hover {
-    color: #ffefd3;
+    color: #111;
 }
 
 .project-item {
@@ -248,14 +248,14 @@ footer {
 }
 
 .email {
-    color: #333;
+    color: #93827f;
     font-size: 1.5em;
     font-weight: 700;
     padding: 1em 0;
     text-decoration: none;
 }
 .email:hover {
-    color: #93827f;
+    color: #333;
 }
 
 .icons {
@@ -267,10 +267,10 @@ footer {
     width: 90%;
 }
 .icons a {
-    color: #333;
+    color: #93827f;
 }
 .icons a:hover {
-    color: #93827f;
+    color: #333;
 }
 
 .copyright {
