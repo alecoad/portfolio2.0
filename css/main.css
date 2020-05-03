@@ -140,7 +140,6 @@ header nav ul li a:hover {
     text-align: center;
     width: 100%;
 }
-
 .about-content {
     width: 90%;
 }
@@ -160,13 +159,12 @@ header nav ul li a:hover {
 .about-content a:hover {
     color: #ffefd3;
 }
-
 .transition-2 {
     height: 20px;
     width: 100%;
     background-image: linear-gradient(#bdc4a7, #93827f);
 }
-
+/* -- PORTFOLIO -- */
 .portfolio-section {
     background-color: #93827f;
     display: flex;
@@ -191,7 +189,6 @@ header nav ul li a:hover {
 .portfolio-section a:hover {
     color: #111;
 }
-
 .project-item {
     display: flex;
     justify-content: center;
@@ -222,13 +219,12 @@ header nav ul li a:hover {
     margin: 0;
     padding-bottom: 2em;
 }
-
 .transition-3 {
     height: 20px;
     width: 100%;
     background-image: linear-gradient(#93827f, #ffefd3);
 }
-
+/* -- FOOTER -- */
 footer {
     background-color: #ffefd3;
     display: flex;
@@ -237,27 +233,23 @@ footer {
     flex-wrap: wrap;
     width: 100%;
 }
-
 .footer-content h2 {
     text-align: center;
     text-shadow: 2px 2px 5px #93827f;
     margin-bottom: 0;
 }
-
 .contact-content {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-
 .contact-content h4 {
     font-size: 1.25em;
     text-align: center;
     text-transform: none;
     width: 90%;
 }
-
 .email {
     color: #93827f;
     font-size: 1.5em;
@@ -270,7 +262,6 @@ footer {
 .email:hover {
     color: #333;
 }
-
 .icons {
     font-size: 2em;
     text-decoration: none;
@@ -285,13 +276,12 @@ footer {
 .icons a:hover {
     color: #333;
 }
-
 .copyright {
     text-align: center;
     width: 100%;
 }
 
-/* ---------- Tablets larger than 640px wide ---------- */
+/* ---------- Screens larger than 640px wide ---------- */
 @media only screen and (min-width: 640px) {
     /* -- HEADER -- */
     .background-image {
@@ -341,7 +331,7 @@ footer {
     }
 }
 
-/* ---------- Desktop larger than 1024px wide ---------- */
+/* ---------- Screens larger than 1024px wide ---------- */
 @media only screen and (min-width: 1024px) {
 
 }
