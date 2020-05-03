@@ -14,7 +14,7 @@ body {
 .background-image {
     background: url("../img/big-prairie.jpg") bottom no-repeat #e6b950;
     background-size: cover;
-    min-height: 500px;
+    min-height: 600px;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -50,7 +50,7 @@ h4 {
 }
 
 p {
-    font-size: 0.875em;
+    font-size: 1em;
     line-height: 1.3125em;
 }
 
@@ -144,6 +144,11 @@ header nav ul li a:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 2em;
+}
+.about-section h2 {
+    color: #ffefd3;
+    text-shadow: 2px 2px 10px #333;
 }
 
 .about-content {
@@ -179,10 +184,19 @@ header nav ul li a:hover {
     align-items: center;
     flex-wrap: wrap;
 }
+.portfolio-section h2 {
+    color: #ffefd3;
+    text-shadow: 2px 2px 5px #333;
+}
+.portfolio-section h3 {
+    margin: 0 0 1em 0;
+    text-shadow: 1px 1px 10px #ffefd3;
+}
 .portfolio-section a {
     text-decoration: none;
     font-weight: 700;
     color: #ffefd3;
+    text-shadow: 2px 2px 5px #333;
 }
 .portfolio-section a:hover {
     color: #111;
@@ -200,19 +214,22 @@ header nav ul li a:hover {
     border: 3px solid #bdc4a7;
     border-radius: 0.5em;
 }
-
-.project-title {
-
-}
 .project-description {
     text-align: center;
 }
 .project-story {
-
+    margin: 0;
 }
 .portfolio-section h3 {
     text-align: center;
     width: 90%;
+}
+.portfolio-closing {
+    text-align: center;
+    text-transform: none;
+    width: 90%;
+    margin: 0;
+    padding-bottom: 2em;
 }
 
 .transition-3 {
@@ -222,6 +239,8 @@ header nav ul li a:hover {
 }
 
 footer {
+    /*background: url("../img/bwsunset.jpg") bottom no-repeat #ffefd3;
+    background-size: cover;*/
     background-color: #ffefd3;
     display: flex;
     justify-content: center;
@@ -232,6 +251,7 @@ footer {
 
 .footer-content h2 {
     text-align: center;
+    text-shadow: 2px 2px 5px #93827f;
     margin-bottom: 0;
 }
 
@@ -243,7 +263,9 @@ footer {
 }
 
 .contact-content h4 {
+    font-size: 1.25em;
     text-align: center;
+    text-transform: none;
     width: 90%;
 }
 
@@ -278,14 +300,12 @@ footer {
     width: 100%;
 }
 
+/* ---------- Tablets larger than 640px wide ---------- */
+@media only screen and (min-width: 640px) {
 
+}
 
-
-
-
-
-/* -- Tablets larger than 768px wide -- */
-@media all and (min-width:768px) {
-
+/* ---------- Desktop larger than 1024px wide ---------- */
+@media only screen and (min-width: 1024px) {
 
 }
